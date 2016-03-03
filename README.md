@@ -1,5 +1,5 @@
-# Compile Bitcoin Classic 11.2 on Xubuntu 16.04 x64 Beta 1
-The example shows how to compile current github version of on [Bitcoin Classic](https://github.com/bitcoinclassic/bitcoinclassic), as of 4 March 2014, on [Xubuntu 16.04 x64 Beta 1](http://www.omgubuntu.co.uk/2016/02/ubuntu-16-04-beta-1-download-flavors). Beta of Ubuntu 16.04 is not yet available. It will be released at the end of March.
+# Compile Bitcoin Classic on Xubuntu 16.04 x64 Beta 1
+The example shows how to compile current github version of on [Bitcoin Classic](https://github.com/bitcoinclassic/bitcoinclassic), as of 4 March 2014 (version 0.12rc), on [Xubuntu 16.04 x64 Beta 1](http://www.omgubuntu.co.uk/2016/02/ubuntu-16-04-beta-1-download-flavors). Beta of Ubuntu 16.04 is not yet available. It will be released at the end of March.
 
 More information about compilation of Bitcoin Classic can be found [here](https://github.com/bitcoinclassic/bitcoinclassic/blob/0.12/doc/build-unix.md). The official
 Bitcoin Classic's binaries can be download from [here](https://github.com/bitcoinclassic/bitcoinclassic/releases).
