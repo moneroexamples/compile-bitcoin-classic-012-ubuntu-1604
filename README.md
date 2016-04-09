@@ -1,4 +1,4 @@
-# Compile Bitcoin Classic on Xubuntu 16.04 x64
+# Compile Bitcoin Classic on Ubuntu 16.04 x64
 The example shows how to compile current github version of on [Bitcoin Classic](https://github.com/bitcoinclassic/bitcoinclassic) (i.e., 0.12)
  on Ubuntu 16.04 x64.
 
@@ -133,7 +133,7 @@ After that, you can run your the Bitcoin Classic GUI `/bitcoin-qt`.
 
 ## Screenshot
 
-![Xubuntu screenshot](https://raw.githubusercontent.com/moneroexamples/compile-bitcoin-classic-11-2-xubuntu-1604-beta-1/master/img/xubuntu_screenshot.jpg)
+![Xubuntu screenshot](https://raw.githubusercontent.com/moneroexamples/compile-bitcoin-classic-012-ubuntu-1604/master/img/xubuntu_screenshot.jpg)
 
 
 ## Other examples
