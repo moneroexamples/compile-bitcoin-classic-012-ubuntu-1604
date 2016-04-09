@@ -1,13 +1,17 @@
-# Compile Bitcoin Classic on Xubuntu 16.04 x64 Beta 1
-The example shows how to compile current github version of on [Bitcoin Classic](https://github.com/bitcoinclassic/bitcoinclassic), as of 4 March 2014 (version 0.12rc), on [Xubuntu 16.04 x64 Beta 1](http://www.omgubuntu.co.uk/2016/02/ubuntu-16-04-beta-1-download-flavors). Beta of Ubuntu 16.04 is not yet available. It will be released at the end of March.
+# Compile Bitcoin Classic on Xubuntu 16.04 x64
+The example shows how to compile current github version of on [Bitcoin Classic](https://github.com/bitcoinclassic/bitcoinclassic) (i.e., 0.12)
+ on Ubuntu 16.04 x64.
 
 More information about compilation of Bitcoin Classic can be found [here](https://github.com/bitcoinclassic/bitcoinclassic/blob/0.12/doc/build-unix.md). The official
 Bitcoin Classic's binaries can be download from [here](https://github.com/bitcoinclassic/bitcoinclassic/releases).
 
 ## Dependencies
 ```bash
+# update repositories
+sudo apt update
+
 # install dependencies for Berkeley DB 4.8 and Bitcoin Classic
-sudo apt-get install git build-essential cmake libboost-all-dev autoconf libtool zlibc libssl-dev pkg-config libevent-dev bsdmainutils libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev
+sudo apt install git build-essential cmake libboost-all-dev autoconf libtool zlibc libssl-dev pkg-config libevent-dev bsdmainutils libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev
 ```
 
 ## Compile Berkeley DB 4.8
@@ -75,7 +79,7 @@ This should result in the following folder tree in `/opt/bdb48`:
 Having the dependencies, we can download the current Bitcoin Classic version and compile it as follows:
 
 ```bash
-# download the latest Bitcon Classic source code from github
+# download the latest Bitcoin Classic source code from github
 git clone https://github.com/bitcoinclassic/bitcoinclassic.git
 
 # go into bitmonero folder
